@@ -1,0 +1,39 @@
+.section {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+.wrapper {
+    width: 1600px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.list {
+    display: flex;
+    gap: 24px;
+}
+
+.button {
+    width: 124px;
+    height: 32px;
+    background-color: var(--primary-surface);
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.bottomSection {
+    height: 400px;
+}

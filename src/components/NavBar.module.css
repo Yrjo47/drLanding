@@ -1,0 +1,32 @@
+@import "../variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    padding: 0 84px;
+}
+
+.logo {
+    font-family: Leckerli One, serif;
+    padding: 0 16px;
+    font-size: 2rem;
+    color: var(--brand);
+}
+
+.nav {
+    font-weight: 600;
+    display: flex;
+    gap: 64px;
+}
+
+.link {
+    font-size: 20px;
+}
+
+.link:hover {
+    color: var(--brand-500);
+}
