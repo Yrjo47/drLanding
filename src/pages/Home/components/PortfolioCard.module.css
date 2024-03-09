@@ -29,10 +29,22 @@
 
 .line {
     display: flex;
-    flex-direction: column;
     padding: 32px 0;
     border-bottom: 1px solid var(--primary-border);
     gap: 22px;
+}
+
+.left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.right {
+    display: grid;
+    place-items: center;
+    flex-grow: 1;
 }
 
 .line:first-child {
@@ -40,6 +52,13 @@
 }
 
 .text {
-    width: 80%;
     font-size: 22px;
+}
+
+.eye {
+    height: 48px;
+}
+
+.eye > path {
+    fill: var(--primary-text);
 }
