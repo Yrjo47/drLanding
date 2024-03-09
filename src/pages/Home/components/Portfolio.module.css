@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-    width: 1600px;
+    width: var(--wrapper-width);
 }
 
 .content {
@@ -35,5 +35,10 @@
 }
 
 .bottomSection {
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 0;
+    gap: 16px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
 }

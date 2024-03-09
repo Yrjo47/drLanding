@@ -1,0 +1,34 @@
+img {
+    height: 32px;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--brand-500);
+}
+
+.wrapper {
+    width: var(--wrapper-width);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+    color: var(--primary-surface);
+    gap: 16px;
+}
+
+.mediaIcons {
+    display: flex;
+    gap: 32px;
+}
+
+.navigationList {
+    display: flex;
+    gap: 32px;
+}

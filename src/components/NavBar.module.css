@@ -3,11 +3,17 @@
 
 .header {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
     height: 60px;
     width: 100%;
-    padding: 0 84px;
+}
+
+.wrapper {
+    height: 100%;
+    width: var(--wrapper-width);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .logo {

@@ -6,7 +6,7 @@
 }
 
 .wrapper {
-    width: 1600px;
+    width: var(--wrapper-width);
 }
 
 .content {

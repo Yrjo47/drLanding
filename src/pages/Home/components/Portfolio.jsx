@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Portfolio.module.css";
+import PortfolioCard from "./portfolioCard";
 
 const Portfolio = () => {
     return (
@@ -7,7 +8,7 @@ const Portfolio = () => {
             <div className={styles.wrapper}>
                 <div className={styles.content}>
                     <div className={styles.topSection}>
-                        <h2 className="title">Портфолио</h2>
+                        <h1 className="title">Портфолио</h1>
                         <div className={styles.bar}>
                             <div className={styles.list}>
                                 <button className={styles.button}>
@@ -17,7 +18,18 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.bottomSection}></div>
+                    <div className={styles.bottomSection}>
+                        <PortfolioCard
+                            title="Статья о рыбах"
+                            text="Тестирование на проникновение (жаргонно также называется пентест или пентестинг) — это метод оценки безопасности компьютерных систем или сетей с помощью моделирования атак злоумышленника."
+                            link=""
+                        />
+                        <PortfolioCard
+                            title="Статья для журнала о проведении внутреннего аудита"
+                            text="Тестирование на проникновение (жаргонно также называется пентест или пентестинг) — это метод оценки безопасности компьютерных систем или сетей с помощью моделирования атак злоумышленника. метод оценки безопасности компьютерных систем или сетей с помощью моделирования атак злоумышленника метод оценки безопасности компьютерных систем или сетей с помощью моделирования атак злоумышленника так злоумышленника метод оценки безопасности компьютерных систем или сетей с помощью моделирования атак злоумышленник"
+                            link=""
+                        />
+                    </div>
                 </div>
             </div>
         </section>

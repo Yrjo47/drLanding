@@ -2,12 +2,14 @@
     --primary-surface: #ffffff;
     --secondary-surface: #d4d4d4;
     --brand-50: hsl(180, 24%, 98%);
-    --brand-100: hsl(180, 32%, 94%);
+    --brand-100: hsl(180, 40%, 88%);
     --brand-200: hsl(180, 52%, 76%);
     --brand-300: hsl(180, 68%, 64%);
     --brand-500: hsl(180, 90%, 32%);
     --primary-border: hsl(180, 80%, 21%);
     --primary-text: hsl(180, 40%, 15%);
     --secondary-text: hsl(0, 0%, 60%);
-    --shadow: #e2e2e2;
+    --shadow: #00000017;
+
+    --wrapper-width: 1280px;
 }

@@ -17,13 +17,17 @@ body {
 }
 
 h1 {
-    font-size: 5.2rem;
+    font-size: 48px;
     line-height: 1.1;
 }
 
 h2 {
-    font-size: 3.2rem;
+    font-size: 32px;
     line-height: 1.1;
+}
+
+p {
+    font-size: 18px;
 }
 
 a {
