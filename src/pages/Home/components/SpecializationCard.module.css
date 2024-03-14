@@ -1,15 +1,20 @@
 .card {
-    padding: 24px;
+    padding: 32px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 240px;
-    background-color: var(--brand-200);
+    height: 294px;
+    background-color: var(--brand-300);
     justify-self: center;
-    border-radius: 10px;
-    box-shadow: 14px 20px 10px 0px var(--shadow);
+    /* border-radius: 10px; */
+    /* box-shadow: 14px 20px 20px 10px var(--shadow); */
 }
 
 .title {
-    margin-bottom: 12px;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.text {
+    font-size: 16px;
 }

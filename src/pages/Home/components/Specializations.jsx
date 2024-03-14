@@ -8,27 +8,34 @@ const Specializations = () => {
         <section id="specializations-section" className={styles.section}>
             <div className={styles.wrapper}>
                 <div className={styles.content}>
-                    <h2 className={styles.title}>Специализации</h2>
+                    <h2 className={styles.title}>Мои специализации</h2>
                     <div className={styles.gallery}>
                         <SpecializationCard
                             image={{ src: image, alt: "lorem ipsum" }}
-                            text="last thing they showed was stand one person at a            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam esse qui iste nesciunt voluptatum deserunt quis corrupti, nemo corporis. time "
+                            text="Передовая статья выражает точку зрения редакции по самому актуальному вопросу в данный момент. Передовая статья помогает правильно ориентироваться в проблемах общественной жизни, реагирует на самые актуальные вопросы.
+
+                            Основные требования: актуальность темы, глубокое раскрытие и обоснование выдвигаемых задач, конкретность и лаконичность обобщений, выводов, аргументов."
+                            title="Лечение лечения"
                         />
                         <SpecializationCard
                             image={{ src: image, alt: "lorem ipsum" }}
-                            text="last thing they            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam esse qui iste nesciunt voluptatum deserunt quis corrupti, nemo corporis. showed was stand one person at a time"
+                            text="Жанр журналистики, в котором автор ставит задачу проанализировать общественные ситуации, процессы, явления, прежде всего с точки зрения закономерностей, лежащих в их основе. В статье автор рассматривает отдельные ситуации как часть более широкого явления. Автор аргументированно пишет о своей точке зрения."
+                            title="Болезни людей"
                         />
                         <SpecializationCard
                             image={{ src: image, alt: "lorem ipsum" }}
-                            text="last thing they showed was stand one person at a time            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam esse qui iste nesciunt voluptatum deserunt quis corrupti, nemo corporis."
+                            text="Отличительным аспектом статьи является её готовность. Если подготавливаемый материал так и не был опубликован (не вышел в тираж, не получил распространения), то такой труд относить к статье некорректно. Скорее всего данную работу можно назвать черновиком или заготовкой. Поэтому целью любой статьи является распространение содержащейся в ней информации"
+                            title="Люди болезней"
                         />
                         <SpecializationCard
                             image={{ src: image, alt: "lorem ipsum" }}
-                            text="            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam esse qui iste nesciunt voluptatum deserunt quis corrupti, nemo corporis.last thing they showed was stand one person at a time"
+                            text="К этой группе относятся публикации, в которых анализируются общезначимые, широкие вопросы. Например, автор такой статьи может вести речь о направлениях политического или экономического развития страны или рассуждать об уровне нравственности, существующем на сегодняшний день в обществе в целом, или о возможности союза церкви и государства, или о взаимоотношениях страны с зарубежными государствами, и т. п. Подобного рода публикации отличаются высоким уровнем обобщения, глобальностью мышления авторов. "
+                            title="Еще что-то"
                         />
                         <SpecializationCard
                             image={{ src: image, alt: "lorem ipsum" }}
-                            text="last thing they showed was            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam esse qui iste nesciunt voluptatum deserunt quis corrupti, nemo corporis. stand one person at a time"
+                            text="Она обращена прежде всего к актуальным практическим проблемам промышленности и жизни, сельского хозяйства, предпринимательства, культуры, науки, образования, бизнеса, финансов, и т. д. В этих статьях анализируются конкретные проблемы, события, действия, ситуации, связанные с практическими задачами"
+                            title="Доктор врач"
                         />
                     </div>
                 </div>
