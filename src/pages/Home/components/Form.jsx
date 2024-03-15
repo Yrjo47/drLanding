@@ -14,11 +14,11 @@ const Form = () => {
     const onSubmit = (data) => console.log(data);
 
     return (
-        <section className={styles.section}>
+        <section id="form" className={styles.section}>
             <div className={styles.wrapper}>
                 <div className={styles.content}>
                     <div className={styles.block}>
-                        <h1 className={styles.title}>Запись</h1>
+                        <h2 className={styles.title}>Запись</h2>
                         <form
                             className={styles.form}
                             onSubmit={handleSubmit(onSubmit)}
@@ -58,7 +58,7 @@ const Form = () => {
                         </form>
                     </div>
                     <div className={styles.block}>
-                        <h1 className={styles.title}>Контактная информация</h1>
+                        <h2 className={styles.title}>Контактная информация</h2>
                         <Map />
                         <ul className={styles.contacts}>
                             <li>

@@ -3,9 +3,9 @@ import styles from "./PortfolioCard.module.css";
 
 const portfolioCard = ({ title, text, link }) => {
     return (
-        <div className={styles.line}>
+        <article className={styles.article}>
             <div className={styles.left}>
-                <h2 className={styles.title}>{title}</h2>
+                <h3 className={styles.title}>{title}</h3>
                 <p className={styles.text}>{text}</p>
                 <a href={link} className={styles.link}></a>
             </div>
@@ -26,7 +26,7 @@ const portfolioCard = ({ title, text, link }) => {
                     </svg>
                 </a>
             </div>
-        </div>
+        </article>
     );
 };
 

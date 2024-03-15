@@ -3,10 +3,15 @@ import styles from "./SpecializationCard.module.css";
 
 const SpecializationCard = ({ image: { src, alt }, text, title }) => {
     return (
-        <div className={styles.card}>
-            <h2 className={styles.title}>{title}</h2>
-            {/* <img src={src} alt={alt} className={styles.image} /> */}
+        <div style={{ backgroundImage: src }} className={styles.card}>
+            <h3 className={styles.title}>{title}</h3>
             <p className={styles.text}>{text}</p>
+            {/* <div className={styles.front}>
+                <h3 className={styles.title}>{title}</h3>
+            </div>
+            <div style={{ display: "none" }} className={styles.back}>
+                <p className={styles.text}>{text}</p>
+            </div> */}
         </div>
     );
 };

@@ -1,9 +1,26 @@
 .section {
-    /* height: calc(100dvh - 60px); */
+    height: 100dvh;
+    background-image: url("../../../assets/hero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 32px;
 }
+
+/* .gradient {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.692) 0%,
+        rgba(42, 170, 187, 0) 100%
+    );
+} */
 
 .wrapper {
     width: var(--wrapper-width);
@@ -11,12 +28,14 @@
 
 .content {
     width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding: 96px 0;
 }
 
-.imageBlock {
+/* .imageBlock {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +44,7 @@
 .image {
     height: 400px;
     border-radius: 20px;
-}
+} */
 
 .aboutBlock {
     height: 100%;
@@ -33,15 +52,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 60px;
+    padding: 0 20px;
 }
 
-.aboutTitle {
+.title {
+    line-height: 1.1;
     font-size: 64px;
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: 20px;
 }
 
-.aboutText {
-    font-size: 16px;
+.text {
+    font-size: 20px;
 }

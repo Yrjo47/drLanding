@@ -18,7 +18,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px 0;
+    padding: 24px 0;
     color: var(--primary-surface);
     gap: 16px;
 }

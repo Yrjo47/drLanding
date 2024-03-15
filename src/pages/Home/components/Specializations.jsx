@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Specializations.module.css";
 import SpecializationCard from "./SpecializationCard";
-import image from "../../../assets/procedure.jpg";
+import image from "../../../assets/hero.jpg";
 
 const Specializations = () => {
     return (

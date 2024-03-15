@@ -4,7 +4,6 @@ import Hero from "./components/Hero";
 import Specializations from "./components/Specializations";
 import Portfolio from "./components/Portfolio";
 import Form from "./components/Form";
-import Footer from "./components/Footer";
 
 const Home = () => {
     return (
@@ -13,7 +12,6 @@ const Home = () => {
             <Specializations />
             <Portfolio />
             <Form />
-            <Footer />
         </div>
     );
 };

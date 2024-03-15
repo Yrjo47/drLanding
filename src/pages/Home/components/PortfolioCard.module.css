@@ -27,9 +27,9 @@
     flex-grow: 1;
 } */
 
-.line {
+.article {
     display: flex;
-    padding: 32px 0;
+    padding: 16px 0;
     border-bottom: 1px solid var(--primary-border);
     gap: 22px;
 }
@@ -47,13 +47,13 @@
     flex-grow: 1;
 }
 
-.line:first-child {
+.article:first-child {
     border-top: 1px solid var(--primary-border);
 }
 
-.text {
+/* .text {
     font-size: 22px;
-}
+} */
 
 .eye {
     height: 48px;
