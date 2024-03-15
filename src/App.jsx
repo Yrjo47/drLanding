@@ -10,7 +10,6 @@ function App() {
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route path="/" element={<Home />} />
-                    <Route path="/works/:id" element={<Home />} />
                 </Route>
                 <Route path="*" element={<NotFound />} />
             </Routes>
